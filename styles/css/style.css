@@ -835,7 +835,7 @@ header .nav-bar ul a.active {
     font-size:19;
   }
   .c4i{
-    height: 1000px; 
+   height: 1000px; 
     clip-path: polygon(50% 0%, 100% 0, 100% 58%, 0 100%, 0 0);
   }
    /* Start footer */
@@ -922,7 +922,7 @@ header .nav-bar ul a.active {
     margin-top: 40px;
   }
 }
-@media screen and (min-width: 800px) and (max-width: 1300px) {
+@media screen and (min-width: 800px) and (max-width: 1200px) {
   #cards{
     display: grid;
     grid-template-columns: auto auto;
@@ -934,6 +934,43 @@ header .nav-bar ul a.active {
   }
   .card{
     height:fit-content;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 13px;
+    background: var(--white);
+    box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
+  }
+  .card-pic{
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    border-radius: 13px;
+    background: var(--lblue);
+  }
+  .images{
+    height: 130px;
+    width: 130px;
+    margin-right: 10px;
+    margin-top :40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: var(--lblue);
+  }
+}
+@media screen and (min-width:1200px) and (max-width: 1300px) {
+  #cards{
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    place-items: center;
+    grid-column-gap:8px;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  .card{
+    height:fit-content;
+    width:230px;
     margin: 20px;
     padding: 20px;
     border-radius: 13px;
