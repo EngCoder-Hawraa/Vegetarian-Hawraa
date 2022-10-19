@@ -28,6 +28,9 @@ body{
 .lgreen{
   background: var(--lgreen);
 }
+.lblue{
+  background: var(--lblue);
+}
 .lblack{
   color: var(--lblack);
 }
@@ -56,7 +59,7 @@ a{
 li{
   list-style: none;
 }
-h3{
+h3,h5{
   color: var(--bgreen);
 }
 .mt-80{
@@ -189,7 +192,7 @@ header .nav-bar ul a.active {
   color: var(--white);
   font-size: 16px;
 }
-.home-info3{
+.home-info3,.home-info4,.home-info5{
   width: 100%;
   background: var(--lblue);
 }
@@ -513,7 +516,7 @@ header .nav-bar ul a.active {
   }
   h3{
     padding: 30px 30px 0 0;
-    }
+  }
   .leaf2{
     margin-top: -125px;
   }
@@ -539,12 +542,12 @@ header .nav-bar ul a.active {
     margin-top: 80px;
   } */
   .home-info3{
-    height: 100px;
+    height: 150px;
     display: flex;
   }
-  /* .leaf3{
-    margin-top: 20px;
-  } */
+  .leaf3{
+    padding-top: 70px;
+  }
   #cards{
     height: fit-content;
     margin-top: 40px;
@@ -593,8 +596,8 @@ header .nav-bar ul a.active {
     margin-bottom:-100px;
   }
   .team-title{
-    padding-top: 140px;
-    font-size: 25px
+    padding-top: 60px;
+    font-size: 25px;
   }
   .teams{
     display: flex;
@@ -603,14 +606,10 @@ header .nav-bar ul a.active {
     height: 100px;
   }
   .team{
-    top:1200px;
-  }
-  .team h3,
-  .team2 h3{
-    text-align: center;
+    top:1500px;
   }
   .team2{
-    top:1750px;
+    top:2010px;
   }
   .card-sign{
     margin-right: 20px;
@@ -743,11 +742,20 @@ header .nav-bar ul a.active {
     margin-right: 880px;
     margin-top: 30px;
   }
+  .home-info3,.home-info4{
+    height: 800px;
+  }
   .home-info3{
-    height: 860px;
-    margin-top: -300px;
-
-    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -410px;
+    clip-path: polygon(0 53%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .home-info4{
+    margin-top: -340px;
+    clip-path: polygon(0 44%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .home-info5{
+    margin-top: -383px;
+    clip-path: polygon(0 60%, 100% 0, 100% 100%, 0% 100%);
   }
   .leaf3{
     margin-top: 200px;
@@ -813,16 +821,19 @@ header .nav-bar ul a.active {
     margin-left: 20px;
   }
   .team-title{
-    padding-top: 140px;
-    font-size: 25px
+    font-size: 25px;
   }
   .team{
-    top:920px;
+    top:1060px;
     right: 300px;
   }
   .team2{
-    top:1050px;
+    top:1180px;
     right: 800px;
+  }
+  h5{
+    padding-top: 20px;
+    font-size:19;
   }
   .c4i{
     clip-path: polygon(50% 0%, 100% 0, 100% 58%, 0 100%, 0 0);
