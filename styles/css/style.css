@@ -34,6 +34,9 @@ body{
 .text-white{
   color: var(--white);
 }
+.text-lblack{
+  color: var(--lblack);
+}
 /*
 .text-black{
   color: var(--black)
@@ -41,13 +44,14 @@ body{
 .text-bgreen{
   color: var(--bgreen)
 }
+ */
 .text-center{
   text-align: center;
-} */
-/* .container{
+} 
+.container{
   display: flex;
   justify-content:center
-} */
+} 
 a{
   text-decoration: none;
 }
@@ -65,6 +69,9 @@ h3{
 } */
 .mb-20{
   margin-bottom: 20px;
+}
+.pt-80{
+  padding-top: 80px;
 }
 /* .ml-20{
   margin-left: 20px;
@@ -179,7 +186,6 @@ header .nav-bar ul a.active {
   width:150px;
   height: 40px;
   border-radius: 10px;
-  margin-top: 20px;
 }
 .read-more a{
   color: var(--white);
@@ -213,11 +219,198 @@ header .nav-bar ul a.active {
   place-items: center;
   font-size: 25px;
 }
+.veg-title{
+  color:var(--bgreen);
+  padding-top: 100px;
+  text-align: center;
+  font-size: 25px
+}
+.content{
+  width: 100%;
+  background: var(--lblue);
+}
+.wrapper{
+  width: 95%;
+  margin: 40px auto;
+}
+.card:hover button{
+  opacity: 80%;
+}
+.card:hover{
+  box-shadow: 0px 2px 10px 5px rgba(128, 127, 127, 0.3);
+}
+.title-btn{
+  background: var(--bgreen);
+  border: none;
+  width:150px;
+  height: 40px;
+  border-radius: 10px;
+}
+.read-more-btn{
+  background:var(--bgreen);
+  color: var(--white);
+  padding: 0 25px;
+  border-radius: 10px ;
+  cursor: pointer;
+}
+.stories-card{
+  box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+}
+.input-stories{
+  border:none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 8px 1% 10px 1%;
+}
+.textaria-stories{
+  border:none;
+  border-radius: 10px;
+  padding: 8px 1% 10px 1%;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.read-more-btn:hover{
+  box-shadow: 0px 2px 10px 5px rgba(128, 127, 127, 0.3);
+}
+.hide{
+  display: none;
+}
+.dots{
+  color: var(--bgreen);
+}
+.team{
+  height:250px;
+  width:250px;
+  position: absolute;
+  background-color: var(--white);
+  border-radius:50%;     
+  filter: drop-shadow(-10px 20px -10px var(--white));
+  filter: drop-shadow(10px 20px 10px var(--light));
+  filter: inner-shadow(-8px 16px -8px var(--white));
+  filter: inner-shadow(8px 16px 8px var(--white));
+}
+.team-img{
+  height:220px;
+  width:220px;
+  border-radius:50%;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.c4i{
+  height: 1000px;
+  width: 100%;
+  margin-top: 300px;
+  background: var(--lblue);
+}
+.c4i-title{
+  padding-top: 100px;
+  font-size: 25px
+}
+.c4i-content{
+  padding:40px;
+  font-size:20px
+}
+.card-sign{
+  box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
+  margin-top: 100px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.sign-list{
+  display: flex;
+  background: var(--lblue);
+  border-radius: 10px;
+  padding: 7px 70px;
+  position: absolute;
+  right: 300px;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.sign-item{
+  margin-left: 100px;
+}
+.fa-arrow-left{
+  position: absolute;
+  top:140px;
+  left:320px
+}
+.sign-triangle{
+  margin-top: 110px;
+  clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background:var(--lgreen);
+  width: 420px;
+  height: 420px;
+  border-radius:10px 0;
+}
+.plate{
+  width:200px;
+  height:200px;
+  position: absolute;
+  top:350px;
+  right:350px
+}
+.input{
+  height: 50px;
+  border-radius: 10px;
+  width: 400px;
+  border:none;
+  box-shadow:  0 2px 10px rgba(128, 127, 127, 0.3);
+  float: left;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+.icons{
+  margin-top: 150px
+}
+.sign-btn{
+  margin-top:40px;
+  background:var(--bgreen);
+  border:none;
+  padding:6px 100px;
+  border-radius: 10px;
+  margin-right: 100px
+}
+.facebook-img{
+  width:30px;
+  height:30px;
+  margin-right:5px;
+  margin-top:6px
+}
+.gmail-img{
+  width:23px;
+  height:23px;
+  margin-right:8px;
+  margin-top:10px
+}
+.gmail-container{
+  width:40px;
+  height:40px;
+  box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
+  border-radius:50%
+}
+.facebook-container{
+  width:40px;
+  height:40px;
+  box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
+  border-radius:50%;
+  margin-left: 40px;
+  margin-right:150px;
+}
+.social-container{
+  display:flex;
+  margin-top: 60px
+}
 /* Footer */
 .footer{
   width:100%;
   background: var(--lgreen);
-  /* color: var(--white);  */
 }
 .social{
   display: flex;
@@ -232,14 +425,23 @@ header .nav-bar ul a.active {
   font-size: 17px;
   color: var(--white);
 }
+.input-container{
+  display: flex;
+  justify-content: center;
+  width:450px;
+}
 .footer-content div input{
   border: none;
+  width:100%;
+  height: 50px;
+  margin-top: 40px;
   border-radius: 10px;
 }
 .footer-content div button{
   border-radius: 10px;
   border: none;
   background: var(--bgreen);
+  margin-left: 30px;
 }
 .footer-content div button a{
   color: var(--white);
@@ -309,6 +511,7 @@ header .nav-bar ul a.active {
   }
   .home-content p{
     padding-top: 130px;
+    padding-bottom:40px
   }
   h3{
     padding: 30px 30px 0 0;
@@ -325,6 +528,10 @@ header .nav-bar ul a.active {
   .read-content h3, .read-content h3{
     text-align: center;
   }
+  .read{
+    display: flex;
+    justify-content: center;
+  }
   .intro-img2{
     width: 100%;
     height:400px
@@ -333,10 +540,6 @@ header .nav-bar ul a.active {
     height: 600px;
     margin-top: 80px;
   } */
-  .read{
-    display: flex;
-    justify-content: center;
-  }
   .home-info3{
     height: 100px;
     display: flex;
@@ -344,29 +547,120 @@ header .nav-bar ul a.active {
   /* .leaf3{
     margin-top: 20px;
   } */
-  /* Start footer */
-  .logo2{
-    width:100%;
-    height: 100px;
-    margin-top: 60px;
+  #cards{
+    height: fit-content;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px
   }
-  .footer-content h3{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 30px;
+  .card{
+    height:fit-content;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 13px;
+    background: var(--white);
+    box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
   }
-  .footer-list{
+  .card-pic{
     display: flex;
     justify-content: center;
+    height: 220px;
+    border-radius: 13px;
+    background: var(--lblue);
+  }
+  .images{
+    height: 130px;
+    width: 130px;
+    margin-right: 10px;
+    margin-top :40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: var(--lblue);
+  }
+  .stories-container{
+    margin-top: 60px
+  }
+  .stories-card{
+    margin: 20px;
+  }
+  .input-stories{
+    display: block;
+    width:98%;
+    margin-bottom: 20px;
+  }
+  .textaria-stories{
+    width: 97.7%;
+  }
+  .content{
+    margin-bottom:-100px;
+  }
+  .team-title{
+    padding-top: 140px;
+    font-size: 25px
+  }
+  .teams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .team{
+    top:1200px;
+  }
+  .team h3,
+  .team2 h3{
+    text-align: center;
+  }
+  .team2{
+    top:1750px;
+  }
+  .card-sign{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .sign-list{
+    right: 20px;
+  }
+  .fa-arrow-left{
+    left:20px
+  }
+  .sign-triangle{
+    display: none;
+  }
+  .plate{
+    display: none;
+  }
+  .input{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* Start footer */
+  .logo2{
+    width:95%;
+    height: 100px;
+    margin-top: 60px;
+    padding-right: 5%;
+  }
+  .footer-content h3{
+    margin-top: -30px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .footer-list{
+    text-align: center;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .footer-items{
-    font-size: 15px;
-  }
-  .footer-items .footer-item{
-    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .footer-items a{
-    color: var(--white)
+    color: var(--white);
+    font-size: 20px;
   }
   .social-media{
     display: flex;
@@ -375,11 +669,11 @@ header .nav-bar ul a.active {
   .social{
     margin-top: 40px;
   }
-  .footer-content div input{
-    height: 50px;
-    margin-top: 40px;
-    width: 400px;
-  }
+  /* .input-container{
+    display: flex;
+    justify-content: center;
+    width:94%;
+  } */
   .footer-content div button{
     margin-top: 40px;
     width: 150px;
@@ -404,10 +698,13 @@ header .nav-bar ul a.active {
     clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   }
   /* Home */
-  .home-info,
-  .read-info{
+  .home-info{
     height: 640px;
     width: 100%;
+    clip-path: polygon(50% 0%, 100% 0, 100% 48%, 0 100%, 0 0);
+  }
+  .read-info{
+    height: 680px;
     clip-path: polygon(50% 0%, 100% 0, 100% 48%, 0 100%, 0 0);
   }
   .home-content p{
@@ -445,15 +742,92 @@ header .nav-bar ul a.active {
     clip-path: polygon(50% 0%, 100% 0, 100% 58%, 0 100%, 0 0);
   } */
   .read-more{
-    margin-right: 800px;
+    margin-right: 880px;
+    margin-top: 30px;
   }
   .home-info3{
-    height: 800px;
-    margin-top: -410px;
-    clip-path: polygon(0 53%, 100% 0, 100% 100%, 0% 100%);
+    height: 860px;
+    margin-top: -300px;
+
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
   }
   .leaf3{
     margin-top: 200px;
+  }
+  .content{
+    height: 1000px;
+    margin-top: 150px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 58%, 0 100%, 0 0);
+    padding-bottom: 40px;
+  }
+  #cards{
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-column-gap:5px;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  .cards-content{
+    display:flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding-top: 60px;
+    padding-bottom: 200px
+  }
+  .card{
+    height: 400px;
+    width: 300px;
+    border-radius: 13px;
+    margin-left: 15px;
+    background: var(--white);
+    box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
+  }
+  .card-pic{
+    height: 220px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 13px;
+    margin-left: 10px;
+    background: #EBF7F6;
+  }
+  .images{
+    height: 130px;
+    width: 130px;
+    margin-right: 10px;
+    margin-top :40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: var(--lblue);
+  }
+  .stories-container{
+    margin-top: 150px
+  }
+  .stories-card{
+    margin: 20px 60px 20px 60px;
+  }
+  .input-stories{
+    width: 47%;
+  }
+  .textaria-stories{
+    width: 97.8%;
+    margin-left: 20px;
+  }
+  .team-title{
+    padding-top: 140px;
+    font-size: 25px
+  }
+  .team{
+    top:920px;
+    right: 300px;
+  }
+  .team2{
+    top:1050px;
+    right: 800px;
+  }
+  .c4i{
+    clip-path: polygon(50% 0%, 100% 0, 100% 58%, 0 100%, 0 0);
   }
    /* Start footer */
    .footer{
@@ -501,10 +875,6 @@ header .nav-bar ul a.active {
   .twitters{
     margin-right: 20px;
   }
-  .footer-content div input{
-    height: 40px;
-    width: 300px;
-  }
   .footer-content div button{
     margin-top: 30px;
     margin-right: 50px;
@@ -513,11 +883,68 @@ header .nav-bar ul a.active {
   }
   /* End footer */
 }
-@media screen and (min-width: 800px) and (max-width: 1300px) {
-  .footer-items{
+@media screen and (max-width: 800px){
+  .input-container{
+    /* display: flex;
+    justify-content: center; */
+    width:100%;
+  }
+  .footer-content div input{
+    margin:0 20px;
+    height: 50px;
+    margin-top: 40px;
+  }
+  /* .footer-items{
     font-size: 20px;
   }
   .footer-items .footer-item{
     margin-left: 50px;
+  } */
+}
+@media screen and (min-width: 801px) and (max-width: 1200px){
+  .input-container{
+    /* display: flex;
+    justify-content: center; */
+    width:100%;
+  }
+  .footer-content div input{
+    height: 50px;
+    margin:0 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+  #cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap:5px;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  .card{
+    height:fit-content;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 13px;
+    background: var(--white);
+    box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
+  }
+  .card-pic{
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    border-radius: 13px;
+    background: var(--lblue);
+  }
+  .images{
+    height: 130px;
+    width: 130px;
+    margin-right: 10px;
+    margin-top :40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: var(--lblue);
   }
 }

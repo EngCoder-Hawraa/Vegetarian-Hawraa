@@ -180,28 +180,28 @@ button:hover {
   color: var(--white);
   font-size: 16px;
 } */
-.veg-title{
+/* .veg-title{
   color:var(--bgreen);
   padding-top: 100px;
   text-align: center;
   font-size: 25px
-}
+} */
 /* .home-info3{
   width: 100%;
   background: var(--lblue);
 } */
-.content{
+/* .content{
   width: 100%;
   background: var(--lblue);
-}
-.title-btn{
+} */
+/* .title-btn{
   background: var(--bgreen);
   border: none;
   width:150px;
   height: 40px;
   border-radius: 10px;
-}
-.team{
+} */
+/* .team{
   height:250px;
   width:250px;
   position: absolute;
@@ -232,7 +232,7 @@ button:hover {
 .c4i-content{
   padding:40px;
   font-size:20px
-}
+} */
 /* #progress{
   z-index: 1000000;
   position: fixed;
@@ -292,7 +292,7 @@ button:hover {
   text-align: center;
 } */
 /* ============ */
-.read-more-btn{
+/* .read-more-btn{
   background:var(--bgreen);
   color: var(--white);
   padding: 0 25px;
@@ -307,7 +307,7 @@ button:hover {
 }
 .dots{
   color: var(--bgreen);
-}
+} */
 /* .more{
   color: var(--bgreen);
 } */
@@ -317,7 +317,7 @@ button:hover {
 /* .read-more-text--show{
   display: inline;
 } */
-.stories-card{
+/* .stories-card{
   box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
   border-radius: 10px;
   padding: 20px;
@@ -335,21 +335,21 @@ button:hover {
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 40px;
-}
+} */
 /* ===================== */
-.wrapper{
+/* .wrapper{
   width: 95%;
   margin: 40px auto;
-}
+} */
 
 /* ============================= */
-.card:hover button{
+/* .card:hover button{
   opacity: 80%;
 }
 .card:hover{
   box-shadow: 0px 2px 10px 5px rgba(128, 127, 127, 0.3);
-}
-.card-sign{
+} */
+/* .card-sign{
   box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
   margin-top: 100px;
   padding-top: 20px;
@@ -442,8 +442,8 @@ button:hover {
 .social-container{
   display:flex;
   margin-top: 60px
-}
-@media screen and (min-width: 800px) and (max-width: 1300px) {
+} */
+/* @media screen and (min-width: 800px) and (max-width: 1300px) {
   #cards{
     display: grid;
     grid-template-columns: auto auto;
@@ -477,7 +477,7 @@ button:hover {
     margin-left: 10px;
     background: var(--lblue);
   }
-}
+} */
 @media screen and (max-width: 1200px) {
   /* .topnav ul a:not(child) {display: none;}
   .topnav a.icon {
@@ -490,7 +490,7 @@ button:hover {
     background: var(--lgreen);
   } */
   /* ============= */
-  #cards{
+  /* #cards{
     height: fit-content;
     margin-top: 40px;
     padding-top: 20px;
@@ -519,7 +519,7 @@ button:hover {
     border-radius: 50%;
     margin-left: 10px;
     background: var(--lblue);
-  }
+  } */
   /* ============================= */
   .card-sign{
     margin-right: 20px;
@@ -622,7 +622,7 @@ button:hover {
     margin-top: 180px;
   } */
 /* vegetarian_Kitchen */
-  .content{
+  /* .content{
     margin-bottom:-100px;
   }
   .team-title{
@@ -644,9 +644,9 @@ button:hover {
   }
   .team2{
     top:1750px;
-  }
+  } */
   /* End */
-  .stories-container{
+  /* .stories-container{
     margin-top: 60px
   }
   .stories-card{
@@ -659,7 +659,7 @@ button:hover {
   }
   .textaria-stories{
     width: 97.7%;
-  }
+  } */
   /* Start footer */
   /* .logo2{
     width:100%;
@@ -772,7 +772,7 @@ button:hover {
     margin-top: 200px;
   } */
   /* vegetarian_Kitchen */
-  .content{
+  /* .content{
     height: 1000px;
     margin-top: 150px;
     clip-path: polygon(50% 0%, 100% 0, 100% 58%, 0 100%, 0 0);
@@ -818,8 +818,8 @@ button:hover {
     border-radius: 50%;
     margin-left: 10px;
     background: var(--lblue);
-  }
-  .team-title{
+  } */
+  /* .team-title{
     padding-top: 140px;
     font-size: 25px
   }
@@ -833,9 +833,9 @@ button:hover {
   }
   .c4i{
     clip-path: polygon(50% 0%, 100% 0, 100% 58%, 0 100%, 0 0);
-  }
+  } */
   /* End */
-  .stories-container{
+  /* .stories-container{
     margin-top: 150px
   }
   .stories-card{
@@ -847,7 +847,7 @@ button:hover {
   .textaria-stories{
     width: 97.8%;
     margin-left: 20px;
-  }
+  } */
   /* Start footer */
   /* .footer{
     display: flex;
