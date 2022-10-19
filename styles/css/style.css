@@ -301,7 +301,7 @@ header .nav-bar ul a.active {
   margin-right: 15px;
 }
 .c4i{
-  height: 1000px;
+  /* height: 1000px; */
   width: 100%;
   margin-top: 300px;
   background: var(--lblue);
