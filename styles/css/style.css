@@ -619,8 +619,7 @@ header .nav-bar ul a.active {
     justify-content: center;
   }
   .leaf3{
-    position: absolute;
-    bottom:70px
+    margin-top: 180px;
   }
 /* vegetarian_Kitchen */
   .content{
