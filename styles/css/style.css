@@ -442,7 +442,6 @@ header .nav-bar ul a.active {
   border-radius: 10px;
   border: none;
   background: var(--bgreen);
-  margin-left: 30px;
 }
 .footer-content div button a{
   color: var(--white);
@@ -906,6 +905,7 @@ header .nav-bar ul a.active {
     margin-right: 50px;
     width: 200px;
     height: 40px;
+    margin-left: 30px;
   }
   /* End footer */
 }
