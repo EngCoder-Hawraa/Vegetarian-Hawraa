@@ -923,11 +923,11 @@ header .nav-bar ul a.active {
   } */
 }
 @media screen and (min-width: 801px) and (max-width: 1200px){
-  .input-container{ 
+  /* .input-container{ 
     display: flex;
     justify-content: center;
     width:100%;
-  } 
+  }  */
   .footer-content div input{
     height: 50px;
     margin:0 80px;
