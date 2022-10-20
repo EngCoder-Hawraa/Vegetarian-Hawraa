@@ -668,11 +668,11 @@ header .nav-bar ul a.active {
   .social{
     margin-top: 40px;
   }
-  /* .input-container{
+  .input-call{
     display: flex;
     justify-content: center;
     width:94%;
-  } */
+  }
   .footer-content div button{
     margin-top: 40px;
     width: 150px;
