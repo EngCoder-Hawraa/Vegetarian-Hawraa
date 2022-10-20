@@ -354,11 +354,11 @@ header .nav-bar ul a.active {
   top:350px;
   right:350px
 }
-.input-container{
-  display: flex;
+/* .input-container{ */
+  /* display: flex;
   justify-content: center;
-  width:100%;
-}
+  width:100%; */
+/* } */
 .input{
   height: 50px;
   border-radius: 10px;
@@ -376,7 +376,6 @@ header .nav-bar ul a.active {
   border:none;
   padding:6px 100px;
   border-radius: 10px;
-  margin-right: 100px
 }
 .facebook-img{
   width:30px;
@@ -426,11 +425,11 @@ header .nav-bar ul a.active {
   font-size: 17px;
   color: var(--white);
 }
-.input-container{
+/* .input-container{
   display: flex;
   justify-content: center;
-  width:450px;
-}
+  width:100%;
+} */
 .footer-content div input{
   border: none;
   width:100%;
@@ -634,13 +633,11 @@ header .nav-bar ul a.active {
   .plate{
     display: none;
   }
-  .input-container{ 
-  display: flex;
-  justify-content: center;
-  width:100%;
-} 
   .input{
-    width:350px;
+    width:100%;
+  }
+  .sign-btn{
+    margin-right: 40px
   }
   /* Start footer */
   .logo2{
@@ -861,6 +858,9 @@ header .nav-bar ul a.active {
   .input{
     width:380px;
     margin-left: 60px;
+  }
+  .sign-btn{
+    margin-right: 96px
   }
   .fa-arrow-left{
     top:120px;
