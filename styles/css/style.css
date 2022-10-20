@@ -649,7 +649,7 @@ header .nav-bar ul a.active {
   }
   .footer-list{
     text-align: center;
-    padding-right: 20px;
+    padding-right: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
