@@ -673,6 +673,9 @@ header .nav-bar ul a.active {
     justify-content: center;
     margin: 0 20px;
   }
+  .input-ca{
+    width: 100%;
+  }
   .footer-content div button{
     margin-top: 40px;
     width: 150px;
