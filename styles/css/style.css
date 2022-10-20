@@ -907,9 +907,9 @@ header .nav-bar ul a.active {
   /* End footer */
 }
 @media screen and (max-width: 800px){
-  /* .input-container{
+  .input-call{
     width:100%;
-  } */
+  }
   .footer-content div input{
     margin:0 20px;
     height: 50px;
