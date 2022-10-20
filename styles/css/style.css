@@ -315,12 +315,12 @@ header .nav-bar ul a.active {
 }
 .card-sign{
   box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
-  margin-top: 100px;
-  padding-top: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  /* margin-top: 30px; */
+  /* margin-bottom: 20px; */
+  padding-top: 40px;
   border-radius: 10px;
-  margin-bottom: 100px;
-  margin-right: 60px;
-  margin-left: 60px;
 }
 .sign-list{
   display: flex;
@@ -337,7 +337,6 @@ header .nav-bar ul a.active {
 }
 .fa-arrow-left{
   position: absolute;
-  top:140px;
   left:320px
 }
 .sign-triangle{
@@ -355,14 +354,16 @@ header .nav-bar ul a.active {
   top:350px;
   right:350px
 }
+.input-container{
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
 .input{
   height: 50px;
   border-radius: 10px;
-  width: 400px;
   border:none;
   box-shadow:  0 2px 10px rgba(128, 127, 127, 0.3);
-  float: left;
-  margin-left: 60px;
   margin-bottom: 10px;
   padding-right: 20px;
 }
@@ -611,8 +612,10 @@ header .nav-bar ul a.active {
     top:2010px;
   }
   .card-sign{
-    margin-right: 20px;
-    margin-left: 20px;
+    width:95%;
+    margin-top: 30px;
+    /* margin-right: 20px;
+    margin-left: 20px; */
     padding-bottom: 40px;
     position: relative;
   }
@@ -620,7 +623,8 @@ header .nav-bar ul a.active {
     right: 20px;
   }
   .fa-arrow-left{
-    left:20px
+    left:20px;
+    top:60px;
   }
   .sign-triangle{
     display: none;
@@ -629,8 +633,7 @@ header .nav-bar ul a.active {
     display: none;
   }
   .input{
-    margin-left: 20px;
-    margin-right: 20px;
+    width:350px;
   }
   /* Start footer */
   .logo2{
@@ -679,6 +682,10 @@ header .nav-bar ul a.active {
 }
 
 @media screen and (min-width: 1200px) {
+  .width{
+    padding-right:100px;
+    padding-left:100px;
+  }
   .header-content{
     display: flex;
     height: 540px;
@@ -838,6 +845,13 @@ header .nav-bar ul a.active {
    height: 1000px; 
     clip-path: polygon(50% 0%, 100% 0, 100% 58%, 0 100%, 0 0);
   }
+  .input{
+    width:380px;
+    margin-left: 60px;
+  }
+  .fa-arrow-left{
+    top:120px;
+  }
    /* Start footer */
    .footer{
     display: flex;
@@ -893,11 +907,9 @@ header .nav-bar ul a.active {
   /* End footer */
 }
 @media screen and (max-width: 800px){
-  .input-container{
-    /* display: flex;
-    justify-content: center; */
+  /* .input-container{
     width:100%;
-  }
+  } */
   .footer-content div input{
     margin:0 20px;
     height: 50px;
@@ -911,11 +923,11 @@ header .nav-bar ul a.active {
   } */
 }
 @media screen and (min-width: 801px) and (max-width: 1200px){
-  .input-container{
+  /* .input-container{ */
     /* display: flex;
     justify-content: center; */
-    width:100%;
-  }
+    /* width:100%;
+  } */
   .footer-content div input{
     height: 50px;
     margin:0 80px;
