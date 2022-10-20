@@ -634,6 +634,11 @@ header .nav-bar ul a.active {
   .plate{
     display: none;
   }
+  .input-container{ 
+  display: flex;
+  justify-content: center;
+  width:100%;
+} 
   .input{
     width:350px;
   }
