@@ -285,7 +285,7 @@ header .nav-bar ul a.active {
 .team{
   height:250px;
   width:250px;
-  position: absolute;
+  /* position: absolute; */
   background-color: var(--white);
   border-radius:50%;     
   filter: drop-shadow(-10px 20px -10px var(--white));
@@ -601,14 +601,17 @@ header .nav-bar ul a.active {
   .teams{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 100px;
   }
   .team{
-    top:1500px;
+    margin-top: -450px;
+    /* position: absolute; */
+    /* top:1500px; */
   }
   .team2{
-    top:2010px;
+    margin-top: -30px;
+    /* top:2010px; */
   }
   .card-sign{
     width:95%;
@@ -833,10 +836,12 @@ header .nav-bar ul a.active {
     font-size: 25px;
   }
   .team{
+    position: absolute;
     top:1060px;
     right: 300px;
   }
   .team2{
+    position: absolute;
     top:1180px;
     right: 800px;
   }
