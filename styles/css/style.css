@@ -671,8 +671,7 @@ header .nav-bar ul a.active {
   .input-call{
     display: flex;
     justify-content: center;
-    width: 50%;
-    /* width:200px; */
+    margin: 0 20px;
   }
   .footer-content div button{
     margin-top: 40px;
