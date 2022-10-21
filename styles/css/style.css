@@ -453,6 +453,7 @@ header .nav-bar ul a.active {
   }
   .topnav ul a{
     background: var(--lgreen);
+    border-bottom: 4px double var(--bgreen);
   }
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
