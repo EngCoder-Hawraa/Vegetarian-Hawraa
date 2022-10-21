@@ -317,8 +317,6 @@ header .nav-bar ul a.active {
   box-shadow:  0 2px 30px rgba(128, 127, 127, 0.3);
   margin-top: 60px;
   margin-bottom: 60px;
-  /* margin-top: 30px; */
-  /* margin-bottom: 20px; */
   padding-top: 40px;
   border-radius: 10px;
 }
@@ -326,7 +324,8 @@ header .nav-bar ul a.active {
   display: flex;
   background: var(--lblue);
   border-radius: 10px;
-  padding: 7px 70px;
+  width:fit-content;
+  padding: 8px 20px;
   position: absolute;
   right: 300px;
   font-size: 14px;
@@ -354,11 +353,10 @@ header .nav-bar ul a.active {
   top:350px;
   right:350px
 }
-/* .input-container{
+.input-container{
   display: flex;
   justify-content: center;
-  width:100%;
-} */
+}
 .input{
   height: 50px;
   border-radius: 10px;
@@ -386,7 +384,6 @@ header .nav-bar ul a.active {
 .gmail-img{
   width:23px;
   height:23px;
-  margin-right:8px;
   margin-top:10px
 }
 .gmail-container{
@@ -424,12 +421,7 @@ header .nav-bar ul a.active {
   margin-left: 10px;
   font-size: 17px;
   color: var(--white);
-}
-/* .input-container{
-  display: flex;
-  justify-content: center;
-  width:100%;
-} */
+} 
 .footer-content div input{
   border: none;
   width:100%;
@@ -625,7 +617,7 @@ header .nav-bar ul a.active {
   }
   .fa-arrow-left{
     left:20px;
-    top:60px;
+    top:65px;
   }
   .sign-triangle{
     display: none;
@@ -633,20 +625,15 @@ header .nav-bar ul a.active {
   .plate{
     display: none;
   }
-  /* .input-container{ 
-    display: grid;
-    grid-template-columns: 100%;
-    place-items: center; */
-    /* display: flex;
-    justify-content: center; */
-    /* width:100%; */
-  /* }  */
+  .input-container{ 
+    width:100%; 
+  }   
   .input{
-    width:100%;
+    width:350px;
   }
-  /* .sign-btn{
-    margin-right: 40px
-  } */
+  .social-container{
+    margin-right: 40px;
+  }
   /* Start footer */
   .logo2{
     width:95%;
@@ -960,6 +947,38 @@ header .nav-bar ul a.active {
   }
 }
 @media screen and (min-width: 800px) and (max-width: 1200px) {
+  .sign-triangle{
+    display: block;
+    margin-top: 110px;
+    position: absolute;
+    right: 0px;
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background:var(--lgreen);
+    width: 390px;
+    height: 390px;
+    border-radius:10px 0;
+  }
+  /* .plate{
+    display: block;
+    width:200px;
+    height:200px;
+    position: absolute;
+    top:250px;
+    right:100px
+  } */
+  .input-container{ 
+    width:100%; 
+    margin-right: 100px;
+   }   
+  .input{
+    width:400px;
+  }
+  .sign-btn{
+    margin-right: 240px;
+  }
+  .social-container{
+    margin-right: 230px;
+  }
   #cards{
     display: grid;
     grid-template-columns: auto auto;
